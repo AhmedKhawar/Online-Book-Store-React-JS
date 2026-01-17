@@ -21,11 +21,11 @@ export const PrayerCard = (props) =>{
             <p>{props.Date}</p>
             <p>{props.Hijri}</p>
             <p>{props.IslamicMonth}</p>
-            <p>{props.Fajr}</p>
-            <p>{props.Dhuhr}</p>
-            <p>{props.Asr}</p>
-            <p>{props.Maghrib}</p>
-            <p>{props.Isha}</p>
+            <p className="prayerTime">{props.Fajr}</p>
+            <p className="prayerTime">{props.Dhuhr}</p>
+            <p className="prayerTime">{props.Asr}</p>
+            <p className="prayerTime">{props.Maghrib}</p>
+            <p className="prayerTime">{props.Isha}</p>
         </div>  
     );
 }
