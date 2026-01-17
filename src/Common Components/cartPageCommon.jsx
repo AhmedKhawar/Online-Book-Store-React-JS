@@ -17,8 +17,10 @@ export const CartLayout = (props) => {
           <h3>{props.title}</h3>
           <p>{props.author}</p>
         </div>
-        <span className="price">${props.price}</span>
-        <button onClick={() => remove(props.id)} className="remove-btn">Remove</button>
+        <div className="item-actions">
+          <span className="price">${props.price}</span>
+          <button onClick={() => remove(props.id)} className="remove-btn">Remove</button>
+        </div>
       </div>
   );
 };
