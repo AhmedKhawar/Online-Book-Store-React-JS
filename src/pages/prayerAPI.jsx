@@ -12,7 +12,7 @@ export const Prayer = () => {
     }, [])
 
     const fetchPrayerTimings = async () => {
-        await Axios.get("http://api.aladhan.com/v1/calendar/2026/1?latitude=51.508515&longitude=-0.1254872&method=2")
+        await Axios.get("https://api.aladhan.com/v1/calendar/2026/1?latitude=51.508515&longitude=-0.1254872&method=2")
             .then((res) => {
                 const prayers = [];
                 const result = res.data.data;
