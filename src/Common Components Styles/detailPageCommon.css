@@ -25,6 +25,7 @@
 }
 
 .book-image img {
+    margin-bottom: 8px;
     width: 100%;
     border-radius: 12px;
     border: 2px solid #1abc9c;

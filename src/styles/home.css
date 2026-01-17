@@ -43,7 +43,8 @@ body {
 }
 
 .categories {
-    margin-top: 40px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .categories form {
@@ -56,8 +57,9 @@ body {
 .bt {
     border: none;
     margin-right: 12px;
-    padding: 10px 25px;
-    border-radius: 9px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
@@ -66,14 +68,17 @@ body {
 
 .fiction {
     background-color: #e67e22;
+ 
 }
 
 .fantasy {
     background-color: #9b59b6;
+
 }
 
 .mystery {
     background-color: #2c3e50;
+    
 }
 
 .scifi {
