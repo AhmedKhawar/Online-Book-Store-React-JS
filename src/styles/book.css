@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background: #2c3e50;
+    color: #ecf0f1;
+}
+
+.catalog {
+    padding: 60px 50px;
+}

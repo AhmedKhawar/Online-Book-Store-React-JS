@@ -1,0 +1,39 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    background: #34495e;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 6px;
+    border: 1px solid #1abc9c;
+}
+
+.Header h2 {
+    color: #1abc9c;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.prayerCard {
+    display: flex;
+    justify-content: space-between;
+    background: #34495e;
+    padding: 18px;
+    margin: 0 15px 8px 15px;
+    border-radius: 6px;
+    border: 1px solid #2c3e50;
+}
+
+.prayerCard:hover {
+    background: #3d566e;
+    border: 1px solid #1abc9c;
+}
+
+.prayerCard p {
+    color: #e8cba0;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    min-width: 80px;
+}

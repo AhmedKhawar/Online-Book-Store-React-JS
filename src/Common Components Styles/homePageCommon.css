@@ -1,0 +1,40 @@
+
+
+.book {
+    text-align: center;
+}
+
+.book img {
+    width: 100%;
+    height: 480px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+.book img:hover {
+    transform: scale(1.01);
+}
+
+.book p {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+.book p:hover {
+    text-decoration: underline;
+}
+
+.book span {
+    color: #e8cba0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.book a {
+    text-decoration: none;
+}
