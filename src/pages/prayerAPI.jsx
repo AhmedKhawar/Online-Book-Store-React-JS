@@ -1,9 +1,8 @@
 import {useState, useEffect} from 'react';
 import Axios from 'axios';
 import { PrayerCard } from '../Common Components/prayerPageCommon';
-import { Heading } from '../Common Components/prayerPageCommon';
 import { Hero } from '../Common Components/heroHeader';
-
+import "../Common Components Styles/prayerPageCommon.css";
 export const Prayer = () => {
     const [prayerTimings, setprayerTimings] = useState([]);
     
@@ -37,11 +36,15 @@ export const Prayer = () => {
         return(
             <>
             <Hero heading="Prayer Timings London" subheading= "January 2026"/>
-            <Heading />
-            {prayerTimings.map((element) => 
-            <PrayerCard Date={element.Date} Fajr = {element.Fajr} Dhuhr = {element.Dhuhr}
-            Asr = {element.Asr} Maghrib = {element.Maghrib} Isha = {element.Isha} 
-            Hijri = {element.Hijri} IslamicMonth = {element.IslamicMonth}/>)}
+
+            <div className="container">
+                 <div className="row catalog">
+                    {prayerTimings.map((element) => 
+                    <div className="col-lg-3 col-md-4 col-sm-6">
+                         <PrayerCard Date={element.Date} Fajr = {element.Fajr} Dhuhr = {element.Dhuhr} Asr = {element.Asr} Maghrib = {element.Maghrib} Isha = {element.Isha}  Hijri = {element.Hijri} IslamicMonth = {element.IslamicMonth}/>
+                    </div>)}
+                </div>
+            </div> 
             </>
         );
     }
